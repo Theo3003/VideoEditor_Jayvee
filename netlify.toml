@@ -1,0 +1,9 @@
+[build]
+command = "npm run build"
+publish = "dist"
+
+# If you use hash links / client routing, this prevents 404s
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
