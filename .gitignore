@@ -11,9 +11,9 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# OS files
+# OS junk
 .DS_Store
 Thumbs.db
 
-# Env files (if you add API keys later)
+# Env (if you add secrets later)
 .env
